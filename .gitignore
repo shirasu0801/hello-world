@@ -1,0 +1,33 @@
+## ビルド成果物 (Emscripten)
+web/wasm/game.js
+web/wasm/game.wasm
+*.o
+*.out
+*.exe
+*.d
+
+## C++ デバッグ / リンク
+*.pdb
+*.ilk
+*.obj
+
+## OS 生成ファイル
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+## エディタ / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+## Claude Code
+.claude/
+
+## 一時ファイル / ログ
+*.tmp
+*.log
